@@ -24,7 +24,7 @@ author:
   avatar           : "ma-olszak.jpg"
   name             : "Małgorzata Olszak"
   pronouns         : # example: "she/her"  
-  bio              : "Department of Banking and Financial Markets\r\n Institute of Financial System of the Economy\r\n Faculty of Management"
+  bio              : "Department of Banking and Financial Markets\n Institute of Financial System of the Economy\n Faculty of Management"
   location         : "Otwock, Poland"
   employer         : "University of Warsaw"
   uri              : # URL
