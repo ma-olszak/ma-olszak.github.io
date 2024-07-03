@@ -55,12 +55,11 @@ Work experience
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Director and prinicipal investigator of research projects
+  * Determinants of the impact of macroprudential policy on the outcomes of banking activity in the European Economic Area” financial support provided by the Polish National Science Centre (NCN) (No. DEC 2019/35/B/HS4/02471); - 2020 - today
+  * Impact of competition in the banking sector on the effects of countercycli-cal macroprudential policy”,  financial support provided by the Polish National Sci-ence Centre (NCN) (No. DEC-2016/23/B/HS4/02230); 2017 - 2023 
+  * Regulatory determinants of procyclicality in bank lending activity”, financial sup-port provided by the Polish National Science Centre (NCN) (No. DEC-2012/05/D/HS4/01356); 2012 – 2018 
+
 
 Publications
 ======
