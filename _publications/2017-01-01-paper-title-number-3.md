@@ -6,7 +6,7 @@ excerpt: ' As banks differ in their risk-management approaches, their sensitivit
 date: 2017-01-01
 venue: 'Journal of Financial Services Research'
 slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: '[http://academicpages.github.io/files/paper3.pdf](http://link.springer.com/10.1007/s10693-015-0238-6)'
+paperurl: 'http://academicpages.github.io/files/paper3.pdf](http://link.springer.com/10.1007/s10693-015-0238-6'
 citation: 'Olszak, M., Pipień, M., Kowalska, I., & Roszkowska, S. (2017). What Drives Heterogeneity of Cyclicality of Loan-Loss Provisions in the EU? Journal of Financial Services Research, 51(1). https://doi.org/10.1007/s10693-015-0238-6.'
 ---
 
