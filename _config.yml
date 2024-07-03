@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "pl-PL"
-title                    : "Małgorzata Olszak, Professor UW"
+title                    : "Małgorzata Olszak, Prof. UW"
 title_separator          : "-"
 name                     : &name "Małgorzata Olszak"
 description              : &description "personal description"
