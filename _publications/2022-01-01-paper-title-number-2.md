@@ -6,7 +6,7 @@ excerpt: 'Despite the extensive debate on the impact of bank competition on risk
 date: 2022-11-01
 venue: 'Journal of International Financial Markets, Institutions and Money'
 slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: '(https://doi.org/10.1016/j.intfin.2021.101484)'
+paperurl: '[https://doi.org/10.1016/j.intfin.2021.101484]'
 citation: 'Olszak, M., & Kowalska, I. (2022). Does bank competition matter for the effects of macroprudential policy on the procyclicality of lending? Journal of International Financial Markets, Institutions and Money, 76(January 2021). https://doi.org/10.1016/j.intfin.2021.101484.'
 ---
 
