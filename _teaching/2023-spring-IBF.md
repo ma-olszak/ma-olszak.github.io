@@ -8,4 +8,4 @@ date: 2023-01-01
 location: "Warsaw, Poland"
 ---
 
-A description of a the course is accessible at: [IBF] (https://usosweb.uw.edu.pl/kontroler.php?_action=actionx:katalog2/przedmioty/pokazPrzedmiot(prz_kod:2600-ERSM1IFB)
+A description of a the course is accessible at: [IBF](https://usosweb.uw.edu.pl/kontroler.php?_action=actionx:katalog2/przedmioty/pokazPrzedmiot(prz_kod:2600-ERSM1IFB)
