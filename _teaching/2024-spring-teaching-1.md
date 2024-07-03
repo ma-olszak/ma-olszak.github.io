@@ -3,8 +3,8 @@ title: "Financial Data Analysis"
 collection: teaching
 type: "Master's degree course"
 permalink: /teaching/2024-spring-teaching-1
-venue: "University of Warsawa, Faculty of Management"
-date: 2014-01-01
+venue: "University of Warsaw, Faculty of Management"
+date: 2024-02-19
 location: "Warsaw, Poland"
 ---
 
