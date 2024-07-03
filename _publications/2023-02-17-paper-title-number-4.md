@@ -2,7 +2,7 @@
 title: "Do competition and market structure affect sensitivity of bank profitability to the business cycle?"
 collection: publications
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
+excerpt: 'This study aims to determine whether competition and market structure explain heterogeneity in the cyclicality of bank profitability. To answer this question, we consider a large panel of individual bank-level data covering over 8000 banks in more than 100 countries.'
 date: 2024-02-17
 venue: 'Pacific-Basin Finance Journal'
 paperurl: 'https://doi.org/10.1016/j.pacfin.2023.102098'
