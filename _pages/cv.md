@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-2016 – Habilitation in Finance, granted by Warrsaw School of Economics 
-2007 – Ph.D. in Economics (Management), granted by the Board of Faculty of Management, University of Warsaw
-2003 – M.A. in Economics (Management), granted by Faculty of Management, Di-ploma of accomplishment of five years of master’s degree studies, 1998-2003
+* 2016 – Habilitation in Finance, granted by Warrsaw School of Economics 
+* 2007 – Ph.D. in Economics (Management), granted by the Board of Faculty of Management, University of Warsaw
+* 2003 – M.A. in Economics (Management), granted by Faculty of Management, Di-ploma of accomplishment of five years of master’s degree studies, 1998-2003
 
 
 Work experience
