@@ -8,7 +8,7 @@ date: 2014-01-01
 location: "Warsaw, Poland"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post. [FDA USOS](https://usosweb.uw.edu.pl/kontroler.php?_action=actionx:katalog2/przedmioty/pokazPrzedmiot(prz_kod:2600-IBPFDA))
+A description of a Financial Data Analysis course is accessible here: [FDA USOS](https://usosweb.uw.edu.pl/kontroler.php?_action=actionx:katalog2/przedmioty/pokazPrzedmiot(prz_kod:2600-IBPFDA))
 
 Heading 1
 ======
