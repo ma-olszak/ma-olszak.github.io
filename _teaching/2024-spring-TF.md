@@ -1,7 +1,7 @@
 ---
 title: "Teoria Finansów / Finance Theory"
 collection: teaching
-type: "Workshop"
+type: "Lecture and Workshop"
 permalink: /teaching/2024-spring-teaching-TF
 venue: "University of Warsaw, Faculty of Management"
 date: 2024-02-01
