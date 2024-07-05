@@ -9,7 +9,7 @@ location: "Milan, Italy"
 ---
 
 
-A description of a the course is accessible at: [RBF IRMC]((https://www.therisksociety.com/))
+A description of a the course is accessible at: [RBF IRMC](https://www.therisksociety.com/)
 ---
 
 
