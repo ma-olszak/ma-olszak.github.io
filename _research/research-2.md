@@ -7,7 +7,6 @@ collection: research
 The aim of this research was to determine to what extent competition in the banking sector affects the effectiveness of countercyclical macroprudential policy. We have looked at two areas.
 In the first area the research covered identification of the role of competition in procyclicality of bank activity. The procyclicality captures the links between business cycle and bank activity. This activity was analyzed from several perspectives, including growth rates of assets, loans, deposits, leverage, loan loss provisions and portability ratios. We show that the link between competition and sensitivity of bank activity to business cycle depends on the income-level. Increased competition is associated with increased procyclicality of growth in asses, lending, deposits and of loan-loss provisions and profitability in high-income countries. 
 In the second area, our primary interest was the relationship between competition and the effect of macroprudential policy on loan growth and between the impact of macroprudential policy on the procyclicality of loan growth of a bank.
----
 
 [Competition, macroprudential policy and procyclicality](https://projekty.ncn.gov.pl/index.php?projekt_id=353301)
 
