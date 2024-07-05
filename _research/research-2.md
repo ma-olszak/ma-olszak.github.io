@@ -1,6 +1,6 @@
 ---
-title: "Impact of competition in the banking sector on the effects of countercycli-cal macroprudential policy"
-excerpt: "Short description of this research "
+title: "Impact of competition in the banking sector on the effects of countercyclical macroprudential policy"
+excerpt: "The aim of this research was to determine to what extent competition in the banking sector affects the effectiveness of countercyclical macroprudential policy "
 collection: research
 ---
 
