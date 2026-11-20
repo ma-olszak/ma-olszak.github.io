@@ -1,14 +1,16 @@
 ---
 layout: archive
-title: "Research"
+title: "Research Projects"
 permalink: /research/
 author_profile: true
 ---
 
-{% include base_path %}
-
-
-{% for post in site.research %}
-  {% include archive-single.html %}
+{% assign projects = site.research | sort: "start_year" | reverse %}
+{% for project in projects %}
+  <article class="archive__item">
+    <h2 class="archive__item-title"><a href="{{ project.url | relative_url }}">{{ project.title | escape }}</a></h2>
+    <p>{{ project.start_year }}–{{ project.end_year }} · {{ project.role }} · {{ project.funder }} · {{ project.grant_id }}</p>
+    {{ project.excerpt | markdownify }}
+    {% if project.grant_url %}<p><a href="{{ project.grant_url }}">Grant record</a></p>{% endif %}
+  </article>
 {% endfor %}
-

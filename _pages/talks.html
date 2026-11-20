@@ -1,16 +1,24 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: "Conferences"
 permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<p>Selected conference presentations, chairing and organisation.</p>
+{% if site.talkmap_link %}<p><a href="{{ '/talkmap.html' | relative_url }}">Conference map</a></p>{% endif %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% assign conferences = site.talks | sort: "date" | reverse %}
+{% assign previous_year = "" %}
+{% for event in conferences %}
+  {% assign year = event.date | date: "%Y" %}
+  {% if year != previous_year %}
+    <h2>{{ year }}</h2>
+    {% assign previous_year = year %}
+  {% endif %}
+  <article class="archive__item">
+    <h3 class="archive__item-title"><a href="{{ event.url | relative_url }}">{{ event.title | escape }}</a></h3>
+    <p>{{ event.date_label | default: event.date | escape }} · {{ event.location | escape }} · {{ event.role | escape }}</p>
+    {% if event.presentation %}<p>{{ event.presentation | escape }}</p>{% endif %}
+  </article>
 {% endfor %}

@@ -1,7 +1,12 @@
 ---
 title: "Impact of competition in the banking sector on the effects of countercyclical macroprudential policy"
 excerpt: "The aim of this research was to determine to what extent competition in the banking sector affects the effectiveness of countercyclical macroprudential policy "
-collection: research
+start_year: 2017
+end_year: 2022
+role: Principal Investigator
+funder: NCN
+grant_id: "2016/23/B/HS4/02230"
+grant_url: "https://projekty.ncn.gov.pl/en/?projekt_id=353301"
 ---
 
 The aim of this research was to determine to what extent competition in the banking sector affects the effectiveness of countercyclical macroprudential policy. We have looked at two areas.
@@ -11,5 +16,5 @@ In the second area, our primary interest was the relationship between competitio
 ---
 Financial support provided by the Polish National Science Centre (NCN) (No. DEC-2016/23/B/HS4/02230)
 
-[Competition, macroprudential policy and procyclicality](https://projekty.ncn.gov.pl/index.php?projekt_id=353301)
+[Competition, macroprudential policy and procyclicality](https://projekty.ncn.gov.pl/en/?projekt_id=353301)
 

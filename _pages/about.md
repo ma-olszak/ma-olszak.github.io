@@ -2,14 +2,17 @@
 permalink: /
 title: "About me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-My name is Małgorzata Olszak and I am a Professor of Finance at Faculty of Management, University of Warsaw.  
-* My research interests include: Banking, Financial Intermediation, Insitutional Finance, Financial Regulation and Supervision.
-* I have published over 50 papers in journals covering inter alia: Journal of Financial Services Research, European Journal of Finance, Pacific-Basin Finance Journal,  Journal of International Financial Markets, Institutions & Money.
-* I have been in charge of three research projects of National Science Centre (Poland).
-* I am Editor-in-Chief of Journal of Banking and Financial Economics.
-* I have been Vice-President of Scientific Council for Economics and Finance at University of Warsaw, Vice-President of Didactic Board at Faculty of Management and a Director for Studies in Financial Management and Accounting.  
+I am a Professor of Finance at the Faculty of Management, University of Warsaw, where I head the Department of Banking and Institutional Finance. My research focuses on banking, financial intermediation and macroprudential policy, including how regulation and competition affect bank lending, profitability and risk.
+
+{% assign latest_publication = site.publications | sort: 'date' | last %}
+{% assign latest_project = site.research | sort: 'start_year' | last %}
+
+- **Latest publication** — [{{ latest_publication.title }}]({{ latest_publication.url | relative_url }}) · [All publications]({{ '/publications/' | relative_url }})
+- **Latest NCN project** — [{{ latest_project.title }}]({{ latest_project.url | relative_url }}) · [All research projects]({{ '/research/' | relative_url }})
+
+I am Editor-in-Chief of the *Journal of Banking and Financial Economics*. See [Academic Service]({{ '/academic-service/' | relative_url }}) for editorial and university roles.
