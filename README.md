@@ -49,3 +49,23 @@ This repository was forked (then detached) by [Stuart Geiger](https://github.com
 If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
 
 Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+
+## Reviewing publications from ORCID
+
+The **ORCID publication review** action runs monthly on the default branch and can
+also be run manually there. Download the `orcid-review` artifact and open
+`orcid-review.json`. Each record has status `already_listed` (an exact DOI match)
+or `needs_review`. The report includes ORCID source records, title-based
+duplicate candidates, and Crossref metadata when available. Missing Crossref
+metadata requires an independent source, such as a publisher's catalogue.
+
+Check authorship, title, venue, type, year and DOI against the publisher or DOI
+registry before adding a work. For work without a DOI, compare authors, title,
+year and venue with the possible matches and the existing collection. Review
+preprint and journal versions together before choosing how to record them.
+Use the issue year when known and add only approved publications to
+`_publications/` in a pull request. Use an existing publication as the front
+matter template and record the DOI in the `doi` field where available.
+
+For a local report, install PyYAML and run
+`python scripts/orcid_review.py --output /tmp/orcid-review.json`.
