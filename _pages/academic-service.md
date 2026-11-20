@@ -25,3 +25,8 @@ author_profile: true
 - Peer reviewer for journals in banking, finance and economics
 
 See [Conferences]({{ '/talks/' | relative_url }}) for conference organisation and session chairing.
+
+## Doctoral dissertation reviews
+
+- Reviewed five doctoral dissertations in 2021–2025 at SGH Warsaw School of Economics, Krakow University of Economics and the University of Szczecin.
+- Earlier doctoral dissertation reviews at Kozminski University and Poznań University of Economics and Business.
