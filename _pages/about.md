@@ -9,7 +9,7 @@ redirect_from:
 
 I am a Professor of Finance at the Faculty of Management, University of Warsaw, where I head the Department of Banking and Institutional Finance. My research focuses on banking, financial intermediation and macroprudential policy, including how regulation and competition affect bank lending, profitability and risk.
 
-{% assign latest_publication = site.publications | sort: 'date' | last %}
+{% assign latest_publication = site.publications | where_exp: 'publication', 'publication.working_paper != true' | sort: 'date' | last %}
 {% assign latest_project = site.research | sort: 'start_year' | last %}
 
 - **Latest publication** — [{{ latest_publication.title }}]({{ latest_publication.url | relative_url }}) · [All publications]({{ '/publications/' | relative_url }})

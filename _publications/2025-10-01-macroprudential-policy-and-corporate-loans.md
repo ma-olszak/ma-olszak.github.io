@@ -9,4 +9,5 @@ citation: "Christophe J. Godlewski, Małgorzata Olszak (2025). Macroprudential p
 authors:
   - "Christophe J. Godlewski"
   - "Małgorzata Olszak"
+related_dois: ["10.2139/ssrn.4754964", "10.2139/ssrn.4970087"]
 ---

@@ -7,6 +7,7 @@ date: 2023-02-17
 venue: 'Pacific-Basin Finance Journal'
 paperurl: 'https://doi.org/10.1016/j.pacfin.2023.102098'
 citation: 'Olszak, M., & Kowalska, I. (2023). Do competition and market structure affect sensitivity of bank profitability to the business cycle? Pacific Basin Finance Journal, 80(June 2022). https://doi.org/10.1016/j.pacfin.2023.102098.'
+related_dois: ["10.2139/ssrn.4150553"]
 ---
 
 {{ page.excerpt | markdownify }}

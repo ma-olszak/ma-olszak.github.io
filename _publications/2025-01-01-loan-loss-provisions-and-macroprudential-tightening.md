@@ -11,4 +11,5 @@ authors:
   - "Christophe J. Godlewski"
   - "Sylwia Roszkowska"
   - "Dorota Skała"
+related_dois: ["10.2139/ssrn.4388623", "10.2139/ssrn.4750029"]
 ---

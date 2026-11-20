@@ -7,6 +7,7 @@ date: 2022-11-01
 venue: 'Journal of International Financial Markets, Institutions and Money'
 paperurl: 'https://doi.org/10.1016/j.intfin.2021.101484'
 citation: 'Olszak, M., & Kowalska, I. (2022). Does bank competition matter for the effects of macroprudential policy on the procyclicality of lending? Journal of International Financial Markets, Institutions and Money, 76(January 2021). https://doi.org/10.1016/j.intfin.2021.101484.'
+related_dois: ["10.2139/ssrn.3471170"]
 ---
 
 {{ page.excerpt | markdownify }}
