@@ -28,4 +28,4 @@ See [Conferences]({{ '/talks/' | relative_url }}) for conference organisation an
 
 ## Doctoral dissertation reviews
 
-Reviewed more than 20 doctoral dissertations between 2018 and 2025. These included reviews at SGH Warsaw School of Economics, Krakow University of Economics, the University of Szczecin, Kozminski University and Poznań University of Economics and Business.
+Reviewed more than 20 doctoral dissertations between 2018 and 2026. These included reviews at SGH Warsaw School of Economics, Krakow University of Economics, the University of Szczecin, Kozminski University and Poznań University of Economics and Business.
