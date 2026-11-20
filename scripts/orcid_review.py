@@ -36,6 +36,7 @@ def normalise_text(value):
 
 def existing_publications():
     by_doi = defaultdict(set)
+    by_put_code = defaultdict(set)
     titles = {}
     for path in sorted(PUBLICATIONS.glob("*.md")):
         _, header, _ = path.read_text(encoding="utf-8").split("---", 2)
@@ -46,7 +47,13 @@ def existing_publications():
                 doi = match.rstrip(".,;")
                 doi = doi.rstrip(")") if doi.count(")") > doi.count("(") else doi
                 by_doi[doi.lower()].add(path.name)
-    return by_doi, titles
+        for value in fields.get("related_dois", []):
+            doi = normalise_doi(value)
+            if doi:
+                by_doi[doi].add(path.name)
+        for put_code in fields.get("orcid_put_codes", []):
+            by_put_code[put_code].add(path.name)
+    return by_doi, by_put_code, titles
 
 
 def get_json(url):
@@ -120,7 +127,7 @@ def similar_title(title, other):
 
 
 def build_report(payload):
-    by_doi, existing_titles = existing_publications()
+    by_doi, by_put_code, existing_titles = existing_publications()
     groups = payload["group"]
     candidates = collect_candidates(groups)
     titles = {
@@ -135,15 +142,17 @@ def build_report(payload):
     entries = []
     for key, records in sorted(candidates.items()):
         doi = normalise_doi(key)
-        matches = sorted(by_doi.get(doi, ()))
+        doi_matches = by_doi.get(doi, set())
+        orcid_matches = set().union(*(by_put_code[record["put_code"]] for record in records))
         entry = {
             "key": key,
             "doi": doi,
-            "status": "already_listed" if matches else "needs_review",
-            "existing_doi_matches": matches,
+            "status": "already_listed" if doi_matches or orcid_matches else "needs_review",
+            "existing_doi_matches": sorted(doi_matches),
+            "existing_orcid_matches": sorted(orcid_matches),
             "orcid_records": records,
         }
-        if not matches:
+        if entry["status"] == "needs_review":
             entry["possible_existing_matches"] = sorted(
                 filename for filename, other in existing_titles.items()
                 if any(similar_title(title, other) for title in titles[key])

@@ -10,4 +10,5 @@ authors:
   - "Małgorzata Olszak"
   - "Gracjan R. Bachurewicz"
   - "Christophe Godlewski"
+related_dois: ["10.2139/ssrn.4770333"]
 ---

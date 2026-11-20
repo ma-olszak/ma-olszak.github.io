@@ -54,7 +54,7 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 
 The **ORCID publication review** action runs monthly on the default branch and can
 also be run manually there. Download the `orcid-review` artifact and open
-`orcid-review.json`. Each record has status `already_listed` (an exact DOI match)
+`orcid-review.json`. Each record has status `already_listed` (a matching DOI or an explicitly linked ORCID record)
 or `needs_review`. The report includes ORCID source records, title-based
 duplicate candidates, and Crossref metadata when available. Missing Crossref
 metadata requires an independent source, such as a publisher's catalogue.
@@ -69,3 +69,7 @@ matter template and record the DOI in the `doi` field where available.
 
 For a local report, install PyYAML and run
 `python scripts/orcid_review.py --output /tmp/orcid-review.json`.
+
+Use `related_dois` for reviewed alternative versions represented by an existing
+publication, and `orcid_put_codes` for reviewed ORCID records without a DOI.
+Mark standalone preprints with `working_paper: true`.

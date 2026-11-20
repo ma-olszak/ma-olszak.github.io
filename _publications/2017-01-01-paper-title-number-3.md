@@ -7,6 +7,7 @@ date: 2017-01-01
 venue: 'Journal of Financial Services Research'
 paperurl: 'http://link.springer.com/10.1007/s10693-015-0238-6'
 citation: 'Olszak, M., Pipień, M., Kowalska, I., & Roszkowska, S. (2017). What Drives Heterogeneity of Cyclicality of Loan-Loss Provisions in the EU? Journal of Financial Services Research, 51(1). https://doi.org/10.1007/s10693-015-0238-6.'
+related_dois: ["10.2139/ssrn.2457261"]
 ---
 
 {{ page.excerpt | markdownify }}
